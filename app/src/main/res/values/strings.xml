@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">mobiledevassign2</string>
+    <string name="address_pin_TV">Address</string>
+    <string name="lat_pin_TV">Latitude</string>
+    <string name="long_pin_TV">Longitude</string>
+    <string name="MainActTitle">Pinned Locations</string>
+    <string name="addnewlocbtn">Add new location</string>
+    <string name="editloclabel">Location details</string>
+    <string name="addnewloclabel">Add new location</string>
+    <string name="addresslabel">Address</string>
+    <string name="latitudelabel">Latitude</string>
+    <string name="longitudelabel">Longitude</string>
+    <string name="updatebtntxt">Update</string>
+    <string name="deletebtntxt">Delete</string>
+    <string name="backbtntxt">Back</string>
+    <string name="addbtntxt">Add</string>
+</resources>

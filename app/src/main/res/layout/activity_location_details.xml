@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LocationDetailsActivity"
+    android:background="#F2E5F6"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/editloclabel"
+        android:gravity="center"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/addresslabel">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/latitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="@string/latitudelabel">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/longitude"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/longitudelabel"
+        android:minHeight="48dp">
+
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/locdetail_layout"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/update_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#AF8FE9"
+            android:text="@string/updatebtntxt">
+
+        </Button>
+
+        <Button
+            android:id="@+id/delete_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#AF8FE9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deletebtntxt">
+
+        </Button>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/backbtntxt"
+        android:backgroundTint="#9966CC"
+        android:layout_gravity="center">
+
+    </Button>
+
+</LinearLayout>
